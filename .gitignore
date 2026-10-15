@@ -1,0 +1,7 @@
+*.asv
+slprj/
+*.slxc
+.DS_Store
+.claude/
+CLAUDE.md
+PLAN.md

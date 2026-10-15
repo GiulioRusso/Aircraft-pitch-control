@@ -1,0 +1,242 @@
+% MATLAB console output of main.m. Numbers are verbatim;
+% labels translated to match the current English fprintf strings.
+
+ Eigenvalues of the state matrix 
+
+eigA =
+
+   0.0000 + 0.0000i
+  -0.3695 + 0.8860i
+  -0.3695 - 0.8860i
+
+
+ Time constant 
+
+tau =
+
+    2.7064
+
+
+ REACHABILITY MATRIX 
+
+R =
+
+    0.2320    1.0784   -1.0107
+    0.0203   -0.0119   -0.0099
+         0    1.1510   -0.6732
+
+
+ The system is completely reachable 
+
+ OBSERVABILITY MATRIX 
+
+O =
+
+         0         0    1.0000
+         0   56.7000         0
+   -0.7881  -24.1542         0
+
+
+ The system is completely observable 
+
+
+
+ State feedback 
+
+ Discretised model 
+
+A_d =
+
+    0.9687    5.6700         0
+   -0.0014    0.9574         0
+         0    5.6700    1.0000
+
+
+B_d =
+
+    0.0232
+    0.0020
+         0
+
+
+C_d =
+
+     0     0     1
+
+
+ Eigenvalues of the state matrix 
+
+eigA_d =
+
+   1.0000 + 0.0000i
+   0.9631 + 0.0886i
+   0.9631 - 0.0886i
+
+
+ Time constant 
+
+tau_d =
+
+    29
+
+
+ REACHABILITY MATRIX 
+
+R_d =
+
+    0.0232    0.0340    0.0438
+    0.0020    0.0019    0.0018
+         0    0.0115    0.0223
+
+
+ The system is completely reachable after discretisation 
+
+ OBSERVABILITY MATRIX 
+
+O_d =
+
+         0         0    1.0000
+         0    5.6700    1.0000
+   -0.0079   11.0985    1.0000
+
+
+ The system is completely observable after discretisation 
+
+ldes_rs =
+
+    0.9802    0.9801    0.9800
+
+
+ GAIN Kr 
+
+Kr =
+
+    0.6852   -0.8379   -0.0444
+
+
+ Check of the gain Kr 
+
+ans =
+
+    0.9802
+    0.9801
+    0.9800
+
+
+ The system is completely observable after state feedback 
+
+
+
+ Output feedback 
+
+ldes_ru =
+
+    0.9592    0.9591    0.9590
+
+
+ GAIN Kr 
+
+Kr =
+
+    0.7733  -32.8926   -0.3859
+
+
+ Check of the gain Kr 
+
+ans =
+
+    0.9590
+    0.9591
+    0.9592
+
+
+ The system is completely observable after state feedback 
+
+ GAIN Ky 
+
+Ky =
+
+    0.3859
+
+
+
+
+ Deterministic observer (Luenberger) 
+
+ldes_od =
+
+    0.9311    0.9310    0.9309
+
+
+ldes_odr =
+
+    0.9471    0.9470    0.9469
+
+
+ GAIN Ko 
+
+Ko =
+
+    0.0951
+   -0.0008
+    0.1332
+
+
+ Check of the observer gain 
+
+ans =
+
+    0.9311
+    0.9310
+    0.9309
+
+
+ GAIN Kr 
+
+Kr =
+
+    0.9694  -53.0650   -0.8412
+
+
+ Check of the gain Kr 
+
+ans =
+
+    0.9469
+    0.9470
+    0.9471
+
+
+ The system is completely observable after state feedback 
+
+
+
+ Stochastic observer (Kalman) 
+
+ GAIN Kr 
+
+Kr =
+
+    0.9694  -53.0650   -0.8412
+
+
+ Check of the gain Kr 
+
+ans =
+
+    0.9469
+    0.9470
+    0.9471
+
+
+ The system is completely observable after state feedback 
+
+ KALMAN GAIN 
+
+K =
+
+    0.0229
+    0.0001
+    0.0402
+
+>>
