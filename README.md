@@ -46,7 +46,7 @@ The zero eigenvalue (θ integrates q) makes the plant simply, not asymptotically
 
 ## Tasks and results
 
-Full console output, including all gains: [`docs/console_output.txt`](docs/console_output.txt).
+Full console output, including all gains: [`docs/console_output.txt`](docs/console_output.txt). Static plots were re-rendered with GNU Octave from the same code, so the labels are in English; the gains match the original MATLAB run.
 
 ### 1. Eigenvalues, time constants, reachability and observability
 
